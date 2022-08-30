@@ -9,7 +9,6 @@
   "author": "Andrii Baidachenko",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.12.3",
-    "playwright": "^1.12.3"
+    "@playwright/test": "^1.25.1"
   }
 }
