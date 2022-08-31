@@ -12,3 +12,9 @@ If you want to run test locally, please follow these steps:
 4. That's it, now you can run tests with `npm run test` - it will run test in 3 browsers (chromium, firefox, webkit) in parallel.
 
 If you want to run it in headed mode, then change configuration to `headless: true` in `playwright.config.js`
+## Setup running on M1 Pro 14 inch 
+
+npm rm playwright
+npm install @playwright/test -D
+# open letcode auto recorded
+npx playwright codegen letcode.in
